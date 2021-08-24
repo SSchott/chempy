@@ -131,7 +131,7 @@ setup_kwargs = dict(
         "pyodesys>=0.14.0" if sys.version_info[0] >= 3 else "pyodesys<0.12",
         "pyparsing>=2.0.3",
         "sym>=0.3.4",
-        "pulp>=1.6.8",
+        "pulp>=1.6.8,<=2.0.0",
         "dot2tex>=2.11.3",
     ],
     extras_require=extras_req,
